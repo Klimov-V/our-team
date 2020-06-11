@@ -313,6 +313,8 @@ template {
     min-height: 100px; }
   .slider__arrow {
     position: absolute;
+    z-index: 1;
+    outline: none;
     top: 0;
     bottom: 0;
     padding: 20px;
@@ -349,6 +351,7 @@ template {
     display: inline-block;
     width: 16px;
     height: 16px;
+    margin: 0 5px;
     border-radius: 50%;
     background-color: #ffcc00;
     border: 1px solid #fff;

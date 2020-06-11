@@ -17,6 +17,8 @@
 
     &__arrow {
         position: absolute;
+        z-index: 1;
+        outline: none;
         top: 0;
         bottom: 0;
         padding: 20px;
@@ -63,6 +65,7 @@
         display: inline-block;
         width: 16px;
         height: 16px;
+        margin: 0 5px;
         border-radius: 50%;
         background-color: $primary-color;
         border: $border-width solid $secondary-color;
